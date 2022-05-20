@@ -26,7 +26,7 @@ public class hellotest {
 
     @Test
     void testMultiplyWithZero() {
-        assertEquals("Multiple with zero should be zero",0,  calculator.multiply(0,5));
+        assertEquals("Multiple with zero should be zero", 0, calculator.multiply(0,5));
         assertEquals("Multiple with zero should be zero", 0, calculator.multiply(5,0));
     }
 
