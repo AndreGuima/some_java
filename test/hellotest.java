@@ -15,5 +15,10 @@ public class hellotest {
         fail("This is An Error");
     }
 
+    @Test
+    public void testWillAlwaysSuccess() {
+        success("This is An Success");
+    }
+
 
 }
