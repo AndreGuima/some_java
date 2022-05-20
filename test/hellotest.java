@@ -1,8 +1,10 @@
 //package hello;
 
 import org.junit.Test;
+import org.junit.Before;
 
 import static org.junit.Assert.fail;
+import static org.junit.Assert.assertEquals;
 
 public class hellotest {
 
