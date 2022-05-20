@@ -6,6 +6,13 @@ import static org.junit.Assert.fail;
 
 public class hellotest {
 
+    private Calculator calculator;
+
+    @Before
+    void setUp() throws Exception {
+        calculator = new Calculator();
+    }
+
     @Test
     public void testNothing() {
     }
@@ -16,8 +23,8 @@ public class hellotest {
     }
 
     @Test
-    public void testWillAlwaysSuccess() {
-        success("This is An Success");
+    void testMultiply() {
+        assertEquals( "Regular multiplication should work", calculator.multiply(4,5), 20);
     }
 
 
